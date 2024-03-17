@@ -1,0 +1,45 @@
+WAJEE UL HASSAAN
+Sahiwal Dist Sargodha
+wajee@gmail.com
+
+Objective:
+Highly skilled and motivated Software Developer with expertise in Django and PostgreSQL, seeking challenging opportunities to leverage technical proficiency and problem-solving abilities in contributing to innovative projects. Dedicated to delivering robust and efficient solutions that meet client needs and exceed expectations.
+
+Skills Summary:
+
+Programming Languages: Python, JavaScript
+Web Frameworks: Django, Flask
+Database Management: PostgreSQL, MySQL, SQLite
+Frontend Technologies: HTML, CSS, ReactJS
+Version Control: Git, GitHub
+Deployment: Docker, Heroku
+Agile Methodologies
+Strong problem-solving and analytical skills
+Excellent communication and teamwork abilities
+
+
+Designed, developed, and maintained web applications using Django framework.
+Implemented scalable and secure RESTful APIs to facilitate seamless communication between frontend and backend systems.
+Utilized PostgreSQL to design and optimize database schemas, ensuring efficient data storage and retrieval.
+Collaborated with cross-functional teams to gather requirements, troubleshoot issues, and implement solutions that align with project objectives.
+Integrated third-party APIs for enhanced functionality and improved user experience.
+Actively participated in code reviews to ensure code quality, maintainability, and adherence to coding standards.
+Deployed applications using Docker containers and managed deployment pipelines for continuous integration and delivery.
+Contributed to the development of internal tools and libraries to streamline development processes and improve productivity.
+Education:
+
+Bachelor of Science in Computer Science
+Fast University, Chiniot-Faislabad Campus
+
+
+Certifications:
+
+Django for Beginners (Online Course), 2020
+PostgreSQL Essentials (Online Course), 2021
+Projects:
+
+E-commerce Platform : Developed a full-fledged e-commerce platform using Django and PostgreSQL, integrating payment gateways and order management systems.
+
+Blogging Website : Created a blogging website using Django, allowing users to create, edit, and publish blog posts, with features such as user authentication and authorization.
+
+Inventory Management System: Designed and implemented an inventory management system for a retail client, using Django and PostgreSQL, to track product stock levels, sales, and orders.
