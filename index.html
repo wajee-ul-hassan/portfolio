@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home-section" id="home">
+        <div class="cont">
+            <div class="image">
+                <img src="img/img1.jpg" alt="Profile Image">
+            </div>
+        <div class="intro">
+            <h1>Wajee ul Hassan</h1>
+            <p class="info">I'm a full stack developer with 3 years of experience.</p>
+            <br>
+            
+                <button class="button">HIRE ME</button>
+                <button class="button" onclick="downloadFile()" >Download CV <i class="uil uil-file"></i></button>
+           
+            <div class="social-icons">
+                <i class="uil uil-instagram"></i>
+                <i class="uil uil-linkedin-alt"></i>
+                <i class="uil uil-twitter-alt"></i>
+                <i class="uil uil-github-alt"></i>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate individual with a strong background in CS. I enjoy coding. My goal is to become an AI developer.</p>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-name">HTML/CSS</div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 80%;"></div>
+                        <div class="skill-percentage">80%</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 70%;"></div>
+                    <div class="skill-percentage">70%</div>
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-name">Python</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 70%;"></div>
+                    <div class="skill-percentage">70%</div>
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-name">C++</div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 70%;"></div>
+                        <div class="skill-percentage">70%</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-name">Django</div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 70%;"></div>
+                        <div class="skill-percentage">70%</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-name">Assembly</div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" style="width: 70%;"></div>
+                        <div class="skill-percentage">70%</div>
+                    </div>
+                </div>
+               
+                <!-- Add more skills as needed -->
+            </div>
+        </div>
+    </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <br>
+        <div class="projects">
+            <div class="project-card">
+                <img class="project-image" src="img/proj1.jpeg" alt="Project Image">
+                <div class="project-content">
+                    <div class="project-title">Candy Crush Game</div>
+                    <div class="project-description"><p>I've created a Candy Crush game in C++, complete with vibrant visuals and challenging levels. Swap candies to match three or more and conquer sugary obstacles for endless sweet fun!</p></div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="img/p2.webp" alt="Project Image">
+                <div class="project-content">
+                    <div class="project-title">Student Management System</div>
+                    <div class="project-description"><p>I've developed student management system in C# utilizing Oracle as the backend database. This comprehensive solution seamlessly organizes student information, academic records, and administrative tasks for efficient school management.</p>.</div>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+            <div class="project-card">
+                <img class="project-image" src="img/p3.avif" alt="Project Image">
+                <div class="project-content">
+                    <div class="project-title">OS Simulator</div>
+                    <div class="project-description"><p>I've developed an operating system simulator in C++ leveraging threads for realistic task management. Experience the intricacies of process scheduling, memory allocation, and inter-process communication in a dynamic, thread-based environment.</p>.</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="img/p4.png" alt="Project Image">
+                <div class="project-content">
+                    <div class="project-title">Event Planner Website</div>
+                    <div class="project-description"><p>I've developed the backend of an event planner website using Django. Seamlessly managing events, registrations, and user data, it ensures a smooth experience for organizers and attendees alike, all powered by Django's robust framework.</p>.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="text-center">Contact me</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <!-- Contact info -->
+                    <div class="text-center">
+                        <i class="uil uil-phone"></i>
+                        <span>123-456-7890</span>
+                        <i class="uil uil-envelope"></i>
+                        <span>abc@gmail.com</span>
+                    </div>
+                    <br>
+                    <!-- Contact form -->
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Send Message" class="btn btn-primary">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
